@@ -5,7 +5,6 @@ SERVER_ADDRESS=127.0.0.1
 SERVER_PORT=443
 CLIENT_PORT=1080
 # 注意把UUID改成和服务器一致
-# UUID=`cat /proc/sys/kernel/random/uuid`
 UUID=`uuidgen`
 ALTERID=64
 
@@ -19,5 +18,5 @@ docker run -d \
     -e CLIENT_PORT=${CLIENT_PORT} \
     -e UUID=${UUID} \
     -e ALTERID=${ALTERID} \
-    -p ${SERVER_PORT}:${SERVER_PORT} \
+    -p ${CLIENT_PORT}:${CLIENT_PORT} \
     v2ray-docker
