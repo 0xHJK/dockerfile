@@ -10,7 +10,7 @@ ALTERID=64
 
 echo "UUID: ${UUID}"
 
-docker run -d \
+docker run -d --restart=always\
     --name v2ray-client \
     -e RUN_MODE=${RUN_MODE} \
     -e SERVER_ADDRESS=${SERVER_ADDRESS} \
