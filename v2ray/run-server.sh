@@ -2,8 +2,8 @@
 
 RUN_MODE=server
 SERVER_PORT=443
-# UUID=`cat /proc/sys/kernel/random/uuid`
-UUID=`uuidgen`
+UUID=`cat /proc/sys/kernel/random/uuid`
+# UUID=`uuidgen`
 ALTERID=64
 
 echo "UUID: ${UUID}"
