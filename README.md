@@ -13,3 +13,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 > 注意这不是最新版docker-compose，最新版去github的releases中下载
 
+或者可以使用pip安装
+```
+pip install docker-compose
+```
