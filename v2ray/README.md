@@ -1,5 +1,7 @@
 # v2ray-docker
 
+# 建议用 <https://github.com/0xHJK/w2ray>
+
 v2ray-core是一款优秀的代理软件，但是配置相对有点复杂。
 
 本镜像适用于大多数只想自由地访问互联网，不愿意太折腾的人。
